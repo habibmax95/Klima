@@ -14,6 +14,8 @@
 		96B66FCF29739A9A00363506 /* KlimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B66FCE29739A9A00363506 /* KlimaTests.swift */; };
 		96B66FD929739A9A00363506 /* KlimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B66FD829739A9A00363506 /* KlimaUITests.swift */; };
 		96B66FDB29739A9A00363506 /* KlimaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B66FDA29739A9A00363506 /* KlimaUITestsLaunchTests.swift */; };
+		96B66FE829739E8800363506 /* EndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B66FE729739E8800363506 /* EndpointTests.swift */; };
+		96B66FEB29739F6E00363506 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B66FEA29739F6E00363506 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		96B66FD429739A9A00363506 /* KlimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B66FD829739A9A00363506 /* KlimaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlimaUITests.swift; sourceTree = "<group>"; };
 		96B66FDA29739A9A00363506 /* KlimaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlimaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96B66FE729739E8800363506 /* EndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointTests.swift; sourceTree = "<group>"; };
+		96B66FEA29739F6E00363506 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		96B66FBC29739A9600363506 /* Klima */ = {
 			isa = PBXGroup;
 			children = (
+				96B66FE929739F5100363506 /* Networking */,
 				96B66FBD29739A9600363506 /* KlimaApp.swift */,
 				96B66FBF29739A9600363506 /* ContentView.swift */,
 				96B66FC129739A9A00363506 /* Assets.xcassets */,
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				96B66FCE29739A9A00363506 /* KlimaTests.swift */,
+				96B66FE729739E8800363506 /* EndpointTests.swift */,
 			);
 			path = KlimaTests;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				96B66FDA29739A9A00363506 /* KlimaUITestsLaunchTests.swift */,
 			);
 			path = KlimaUITests;
+			sourceTree = "<group>";
+		};
+		96B66FE929739F5100363506 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				96B66FEA29739F6E00363506 /* Endpoint.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96B66FC029739A9600363506 /* ContentView.swift in Sources */,
+				96B66FEB29739F6E00363506 /* Endpoint.swift in Sources */,
 				96B66FBE29739A9600363506 /* KlimaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B66FE829739E8800363506 /* EndpointTests.swift in Sources */,
 				96B66FCF29739A9A00363506 /* KlimaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
