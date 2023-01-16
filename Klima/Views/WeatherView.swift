@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct WeatherView: View {
+    let vm: WeatherViewModel
     var body: some View {
         VStack (alignment: .leading) {
             HStack {
@@ -15,30 +16,30 @@ struct WeatherView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 20, height: 20)
-                Text("Solna, Stockholm")
+                Text(vm.cityName)
                     .font(.headline)
                 
             } //: HStack
             
             HStack {
                 HStack {
-                    Image("10d")
+                    Image(vm.weatherIcon)
                         .resizable()
                         .frame(width: 56, height: 56)
-                    Text("4°")
+                    Text(vm.currentTemperature)
                         .font(.system(size: 56, weight: .semibold))
                 } //: HStack
                 
                 Spacer()
                 
                 VStack(alignment: .trailing) {
-                    Text("Rain")
+                    Text(vm.weatherStatus)
                         .font(.subheadline)
                         .foregroundColor(Color.gray)
-                    Text("5°/3°")
+                    Text(vm.temperatureRange)
                         .font(.subheadline)
                         .foregroundColor(Color.gray)
-                    Text("Feels like 0°")
+                    Text(vm.feelsLike)
                         .font(.subheadline)
                         .foregroundColor(Color.gray)
                 } //: VStack
@@ -49,8 +50,8 @@ struct WeatherView: View {
     }
 }
 
-struct WeatherView_Previews: PreviewProvider {
-    static var previews: some View {
-        WeatherView()
-    }
-}
+//struct WeatherView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        WeatherView()
+//    }
+//}
