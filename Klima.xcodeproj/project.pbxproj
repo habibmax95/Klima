@@ -26,6 +26,7 @@
 		96B66FFF2974EB8800363506 /* WeatherViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B66FFE2974EB8800363506 /* WeatherViewModelTests.swift */; };
 		96B670022974EE1200363506 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B670012974EE1200363506 /* WeatherViewModel.swift */; };
 		96B670042974F0BC00363506 /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B670032974F0BC00363506 /* JSONMapper.swift */; };
+		96B67006297515A500363506 /* RequestLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B67005297515A500363506 /* RequestLocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		96B66FFE2974EB8800363506 /* WeatherViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModelTests.swift; sourceTree = "<group>"; };
 		96B670012974EE1200363506 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		96B670032974F0BC00363506 /* JSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
+		96B67005297515A500363506 /* RequestLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestLocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				96B66FFC2974C88B00363506 /* WeatherView.swift */,
+				96B67005297515A500363506 /* RequestLocationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				96B66FC029739A9600363506 /* ContentView.swift in Sources */,
 				96B66FF729749AF600363506 /* WeatherResponse.swift in Sources */,
 				96B66FEB29739F6E00363506 /* Endpoint.swift in Sources */,
+				96B67006297515A500363506 /* RequestLocationView.swift in Sources */,
 				96B66FEF29748A3300363506 /* HTTPClient.swift in Sources */,
 				96B66FBE29739A9600363506 /* KlimaApp.swift in Sources */,
 				96B670022974EE1200363506 /* WeatherViewModel.swift in Sources */,
