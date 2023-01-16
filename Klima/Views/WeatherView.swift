@@ -10,39 +10,39 @@ import SwiftUI
 struct WeatherView: View {
     let vm: WeatherViewModel
     var body: some View {
-        VStack (alignment: .leading) {
+        VStack (alignment: .leading, spacing: 0) {
+            // Weather Condition
             HStack {
-                Image("location")
+                Image(vm.weatherIcon)
                     .resizable()
-                    .scaledToFit()
-                    .frame(width: 20, height: 20)
-                Text(vm.cityName)
+                    .frame(width: 28, height: 28)
+                Text(vm.weatherStatus)
                     .font(.headline)
-                
-            } //: HStack
+            }
             
-            HStack {
-                HStack {
-                    Image(vm.weatherIcon)
-                        .resizable()
-                        .frame(width: 56, height: 56)
+            HStack (alignment: .bottom) {
+                VStack(alignment: .leading) {
                     Text(vm.currentTemperature)
                         .font(.system(size: 56, weight: .semibold))
-                } //: HStack
+                    Text(vm.temperatureRange)
+                        .font(.subheadline)
+                    Text(vm.feelsLike)
+                        .font(.subheadline)
+                } //: VStack
                 
                 Spacer()
                 
-                VStack(alignment: .trailing) {
-                    Text(vm.weatherStatus)
+                // Location
+                HStack {
+                    Image("location")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 20, height: 20)
+                    Text(vm.cityName)
                         .font(.subheadline)
-                        .foregroundColor(Color.gray)
-                    Text(vm.temperatureRange)
-                        .font(.subheadline)
-                        .foregroundColor(Color.gray)
-                    Text(vm.feelsLike)
-                        .font(.subheadline)
-                        .foregroundColor(Color.gray)
-                } //: VStack
+                    
+                } //: HStack
+                
             } //: HStack
         } //: VStack
         .padding()
