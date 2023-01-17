@@ -1,11 +1,11 @@
 # Klima
 Weather app | MVVM | SwiftUI | Unit Tests
 
-#Project description
+# Project description
 iOS Weather app built using OpenWeather API to display the current weather based on user location. The default unit of measurement used is metric.
 
 
-#Technical information :
+# Technical information :
 Development Language Used : Swift 5
 Current Version : 1.0
 Build : 1
@@ -14,12 +14,12 @@ XcodeVersion : 14.2
 Supported Devices : iPhone , iPad
 Third Party Software : OpenWeather API
 
-#Steps to run project :
+# Steps to run project :
 1. Download or clone the proejct from github URL
 2. Open Klima.xcodeproj
 3. Build and Run the project
 
-#App Usage :
+# App Usage :
 On Launching the app for first time, user will be promoted to enable location service. Once the location is enabled, it will fetch and show weather data. If it fails throughout the process, the app will show fail message.
 
 # iOS Development Technologies and Concepts used :
@@ -32,7 +32,7 @@ TDD
 Unit tests using XCTest
 Extensions
 
-#Project Structure :
+# Project Structure :
 Extensions : Contain the extensions of Float
 Utilties : Contains utiity functions
 Usecases : Contains the manager classes for location
@@ -52,13 +52,13 @@ KlimaTests : Contains the Unit tests to be run on the app
 4. Add UI tests
 5. Provide option to choose the unit of measurement
 
-#Requirements
+# Requirements
 1. Show weather data based on location
 2. Take city name as input to fetch its weather
 
-#Wireframe
+# Wireframe
 ![Alt text](/Screenshots/Wireframes/wireframe_klima.png?raw=true "Wireframe")
 
-#Screenshots
+# Screenshots
 ![Alt text](/Screenshots/App/klima_weather.png?raw=true "Weather UI") ![Alt text](/Screenshots/App/kilma_permission.png?raw=true "Permission UI")
 
