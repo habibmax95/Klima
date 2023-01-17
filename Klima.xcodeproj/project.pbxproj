@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		96B66FBE29739A9600363506 /* KlimaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B66FBD29739A9600363506 /* KlimaApp.swift */; };
-		96B66FC029739A9600363506 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B66FBF29739A9600363506 /* ContentView.swift */; };
 		96B66FC229739A9A00363506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B66FC129739A9A00363506 /* Assets.xcassets */; };
 		96B66FC529739A9A00363506 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B66FC429739A9A00363506 /* Preview Assets.xcassets */; };
 		96B66FD929739A9A00363506 /* KlimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B66FD829739A9A00363506 /* KlimaUITests.swift */; };
@@ -57,7 +56,6 @@
 /* Begin PBXFileReference section */
 		96B66FBA29739A9600363506 /* Klima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B66FBD29739A9600363506 /* KlimaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlimaApp.swift; sourceTree = "<group>"; };
-		96B66FBF29739A9600363506 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96B66FC129739A9A00363506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96B66FC429739A9A00363506 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96B66FCA29739A9A00363506 /* KlimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KlimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,7 +142,6 @@
 				96B66FF529749ADC00363506 /* Model */,
 				96B66FE929739F5100363506 /* Networking */,
 				96B66FBD29739A9600363506 /* KlimaApp.swift */,
-				96B66FBF29739A9600363506 /* ContentView.swift */,
 				96B66FC129739A9A00363506 /* Assets.xcassets */,
 				96B66FC329739A9A00363506 /* Preview Content */,
 			);
@@ -392,7 +389,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B66FC029739A9600363506 /* ContentView.swift in Sources */,
 				96B66FF729749AF600363506 /* WeatherResponse.swift in Sources */,
 				96D897E429763BA900A94CCE /* Utilities.swift in Sources */,
 				96B66FEB29739F6E00363506 /* Endpoint.swift in Sources */,
