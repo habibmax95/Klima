@@ -26,10 +26,10 @@ final class WeatherViewModelTests: XCTestCase {
         XCTAssertEqual(sut.cityName, "Stockholm")
         XCTAssertEqual(sut.weatherData.weather.count, 1)
         XCTAssertEqual(sut.weatherIcon, "10n")
-        XCTAssertEqual(sut.currentTemperature, "3.53°C")
+        XCTAssertEqual(sut.currentTemperature, "3.5°C")
         XCTAssertEqual(sut.weatherStatus, "Rain")
-        XCTAssertEqual(sut.temperatureRange, "3.92°C/3.05°C")
-        XCTAssertEqual(sut.feelsLike, "Feels like -2.14°C")
+        XCTAssertEqual(sut.temperatureRange, "3.9°/3.0°")
+        XCTAssertEqual(sut.feelsLike, "Feels like -2.1°")
     }
     
 }

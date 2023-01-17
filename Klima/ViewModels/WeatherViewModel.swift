@@ -20,7 +20,7 @@ struct WeatherViewModel {
     }
     
     var currentTemperature: String {
-        "\(weatherData.temperature.temp)°C"
+        "\(weatherData.temperature.temp.weatherReadingFormat)C"
     }
     
     var weatherStatus: String {
@@ -28,10 +28,10 @@ struct WeatherViewModel {
     }
     
     var temperatureRange: String {
-        "\(weatherData.temperature.tempMax)°C/\(weatherData.temperature.tempMin)°C"
+        "\(weatherData.temperature.tempMax.weatherReadingFormat)/\(weatherData.temperature.tempMin.weatherReadingFormat)"
     }
     
     var feelsLike: String {
-        "Feels like \(weatherData.temperature.feelsLike)°C"
+        "Feels like \(weatherData.temperature.feelsLike.weatherReadingFormat)"
     }
 }

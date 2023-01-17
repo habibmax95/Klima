@@ -33,6 +33,8 @@
 		96B670132975DD0100363506 /* DashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B670122975DD0100363506 /* DashScreenView.swift */; };
 		96D897E22976133D00A94CCE /* MockLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D897E12976133D00A94CCE /* MockLocationManager.swift */; };
 		96D897E429763BA900A94CCE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D897E329763BA900A94CCE /* Utilities.swift */; };
+		96D897E829763DC300A94CCE /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D897E729763DC300A94CCE /* Double+Extension.swift */; };
+		96D897EA29763ED000A94CCE /* WeatherReadingFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D897E929763ED000A94CCE /* WeatherReadingFormatterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		96B670122975DD0100363506 /* DashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashScreenView.swift; sourceTree = "<group>"; };
 		96D897E12976133D00A94CCE /* MockLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocationManager.swift; sourceTree = "<group>"; };
 		96D897E329763BA900A94CCE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		96D897E729763DC300A94CCE /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		96D897E929763ED000A94CCE /* WeatherReadingFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReadingFormatterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 		96B66FBC29739A9600363506 /* Klima */ = {
 			isa = PBXGroup;
 			children = (
+				96D897E629763DA300A94CCE /* Extensions */,
 				96B6700D29759C0600363506 /* Usecases */,
 				96B670002974EDFC00363506 /* ViewModels */,
 				96B66FFB2974C82600363506 /* Screens */,
@@ -163,6 +168,7 @@
 				96B66FEC2974881100363506 /* HTTPClientTests.swift */,
 				96B66FFE2974EB8800363506 /* WeatherViewModelTests.swift */,
 				96B670072975894600363506 /* DashScreenViewModelTests.swift */,
+				96D897E929763ED000A94CCE /* WeatherReadingFormatterTests.swift */,
 			);
 			path = KlimaTests;
 			sourceTree = "<group>";
@@ -246,6 +252,14 @@
 				96B670032974F0BC00363506 /* JSONMapper.swift */,
 			);
 			path = Utlities;
+			sourceTree = "<group>";
+		};
+		96D897E629763DA300A94CCE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				96D897E729763DC300A94CCE /* Double+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,6 +397,7 @@
 				96D897E429763BA900A94CCE /* Utilities.swift in Sources */,
 				96B66FEB29739F6E00363506 /* Endpoint.swift in Sources */,
 				96B67006297515A500363506 /* RequestLocationView.swift in Sources */,
+				96D897E829763DC300A94CCE /* Double+Extension.swift in Sources */,
 				96B670132975DD0100363506 /* DashScreenView.swift in Sources */,
 				96B66FEF29748A3300363506 /* HTTPClient.swift in Sources */,
 				96B6700C29759AAE00363506 /* DashScreenState.swift in Sources */,
@@ -399,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D897EA29763ED000A94CCE /* WeatherReadingFormatterTests.swift in Sources */,
 				96B670082975894600363506 /* DashScreenViewModelTests.swift in Sources */,
 				96B66FF429748DE300363506 /* MockURLSession.swift in Sources */,
 				96B66FE829739E8800363506 /* EndpointTests.swift in Sources */,
