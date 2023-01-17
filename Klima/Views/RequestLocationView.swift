@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct RequestLocationView: View {
+    @EnvironmentObject var dashScreenViewModel: DashScreenViewModel
     var body: some View {
         VStack {
-            Button(action: {}) {
+            Button(action: {
+                dashScreenViewModel.onTapEnableLocation()
+            }) {
                 Text("Show weather for my location")
                     .padding(.horizontal)
             }
