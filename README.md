@@ -6,13 +6,13 @@ iOS Weather app built using OpenWeather API to display the current weather based
 
 
 # Technical information :
-Development Language Used : Swift 5
-Current Version : 1.0
-Build : 1
-Deployment target : iOS 16.2
-XcodeVersion : 14.2
-Supported Devices : iPhone , iPad
-Third Party Software : OpenWeather API
+- Development Language Used : Swift 5
+- Current Version : 1.0
+- Build : 1
+- Deployment target : iOS 16.2
+- XcodeVersion : 14.2
+- Supported Devices : iPhone , iPad
+- Third Party Software : OpenWeather API
 
 # Steps to run project :
 1. Download or clone the proejct from github URL
@@ -60,5 +60,5 @@ KlimaTests : Contains the Unit tests to be run on the app
 ![Alt text](/Screenshots/Wireframes/wireframe_klima.png?raw=true "Wireframe")
 
 # Screenshots
-![Alt text](/Screenshots/App/klima_weather.png?raw=true "Weather UI") ![Alt text](/Screenshots/App/kilma_permission.png?raw=true "Permission UI")
+![Alt text](/Screenshots/App/klima_weather.png?raw=true "Weather UI")
 
